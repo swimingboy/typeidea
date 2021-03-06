@@ -11,3 +11,4 @@ class Category(models.Model):
         (STATUS_DELETE, '删除')
     )
 
+    name = models.CharField(max_length=50, verbose_name='民G')
